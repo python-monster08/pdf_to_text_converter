@@ -1,0 +1,11 @@
+pattern = re.compile(
+    r"(?P<question>1\..+?Code:)\s+"  # Question section ending with 'Code:'
+    r"(?P<lists>List I\s+List II.+?D\s+4\.\s+Kerala)\s+"  # List section ending with 'D 4. Kerala'
+    r"(?P<code>Code\s+:\s+A\s+B\s+C\s+D)\s+"  # Code section
+    r"(?P<objective>a\).+?d\)\s+\d\s+\d\s+\d\s+\d)\s+"  # Objective section
+    r"(?P<year>U\.P\s*\.P\s*\.C\.S\.\s*\(Mains\)\s+\d{4})\s+"  # Year section
+    r"(?P<answer>Answer\s+-\s*\([a-d]\))",  # Right Answer section
+    re.DOTALL
+)
+
+
