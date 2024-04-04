@@ -194,8 +194,7 @@ List-I                      List-II
 A . 1556            1. Battle of Haldi Ghati
 B. 1600             2. Nadir Shah's capture of Delhi
 C. 1686             3. Death of Shivaji
-D. 1739             4. Grant of Charter to East India Company
-                    5. Accession of Akbar
+D. 1739             4. Grant of Charter to East India Company            
 Codes:
 (a) A – 3; B – 4; C – 2; D – 1
 (b) A – 5; B – 4; C – 3; D – 2

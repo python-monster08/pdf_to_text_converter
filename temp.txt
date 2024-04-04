@@ -1,0 +1,34 @@
+ patterns = {
+        "[QUESTION_HEADING]": r"(\d+\.\s.*?\?)",
+        "[LIST_HEADING]": "",
+        "[LIST_HEADING_I]": "",
+        "[LIST_HEADING_II]": "",
+        "[LIST_CONTENT1]": "",
+        "[LIST_CONTENT1_A]": "",
+        "[LIST_CONTENT1_1]": "",
+        "[LIST_CONTENT2]": "",
+        "[LIST_CONTENT2_B]": "",
+        "[LIST_CONTENT2_2]": "",
+        "[LIST_CONTENT3]": "",
+        "[LIST_CONTENT3_C]": "",
+        "[LIST_CONTENT3_3]": "",
+        "[LIST_CONTENT4]": "",
+        "[LIST_CONTENT4_D]": "",
+        "[LIST_CONTENT4_4]": "",
+        "[CODE]": "",
+        "[OBJECTIVES]": r"\([a-d]\)\s[^\n]+",
+        "[OBJECTIVE1]": r"(\(a\).+?)\n",
+        "[OBJECTIVE2]": r"(\(b\).+?)\n",
+        "[OBJECTIVE3]": r"(\(c\).+?)\n",
+        "[OBJECTIVE4]": r"(\(d\).+?)\n",
+        "[EXAM_NAME]": "",
+        "[EXAM_TYPE]": "",
+        "[EXAM_YEAR]": r"\[(\d{4})\]",
+        "[CORRECT_ANSWER]": ""
+    }
+
+
+
+    mcq_pattern = re.compile(r'(\d+\.\s.+?\?\s\[\d{4}\])(\n\([a-d]\)\s[^(\n]+)+', re.DOTALL)
+    
+    mcq_pattern = pattern = re.compile(r'(\d+\.\s.+?\[1995\])(\n\([a-d]\)\s.+?)+(\nSelect the correct answer using the codes given below:(?:\n\([a-d]\).+?)+)', re.DOTALL)

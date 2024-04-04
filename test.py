@@ -17,7 +17,7 @@ def extract_questions_v2(file_path, pattern):
     return questions
 
 # Path to your .txt file (ensure this is the correct path)
-file_path = r'F:\Question Bank trials\ExtractList\OutputFiles\extracted_text2.txt'
+file_path = r'F:\Question Bank trials\ExtractList\OutputFiles\extracted_text.txt'
 
 # Extract questions based on the updated pattern
 questions = extract_questions_v2(file_path, question_pattern)

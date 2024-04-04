@@ -205,7 +205,7 @@ import PyPDF2
 import re
 
 # Define your PDF file path and output file path
-pdf_path = r'F:\Question Bank trials\ExtractList\History Medieval Ques Only Pages 15-16.pdf'
+pdf_path = 'Full Disha 26 Years Prelims Solved Papers freeupsc.org.pdf'
 output_file_path = r'F:\Question Bank trials\ExtractList\OutputFiles\extracted_text2.txt'
 
 # Open the PDF file

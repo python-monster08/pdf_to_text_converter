@@ -1,0 +1,3 @@
+git remote add origin https://github.com/python-monster08/pdf_to_text_converter.git
+git branch -M main
+git push -u origin main
